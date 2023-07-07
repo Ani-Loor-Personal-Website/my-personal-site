@@ -1,0 +1,73 @@
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #ff7acc;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #81affe;
+    color: white;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+  }
+
+
+body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/908/631/590/hello-kitty-1440x900-anime-hello-kitty-hd-art-wallpaper-preview.jpg");
+    color: white
+
+    
+     
+
+
+}
+
+p {
+    font-size: 25px;
+}
+
+h1 {
+    font-family: "Helvetica";
+}
+
+img {
+    float:left
+}
+
+span {
+    font-size: 100px;
+    text-align: justify;
+    font-family: 'Brush Script MT';
+    text-shadow: 2px 2px 3px #69afff, 2px 2px 5px #00c3ff;
+}
+
+article {
+    background-color: #81affe;
+    width: 600px;
+    border: 15px solid #81affe;
+    padding: 50px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+

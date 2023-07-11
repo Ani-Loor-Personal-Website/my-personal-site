@@ -58,16 +58,28 @@ span {
     text-shadow: 2px 2px 3px #69afff, 2px 2px 5px #00c3ff;
 }
 
-article {
-    background-color: #81affe;
-    width: 600px;
-    border: 15px solid #81affe;
-    padding: 50px;
-    margin: 20px;
-    margin-left: auto;
-    margin-right: auto;
+
+
+
+.homecontainer {
+  display: flex;
+  margin: auto;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: #ff7acc;
+  width: 50%
+  
+ 
 }
 
+article {
+  background-color: #81affe;
+  width: 600px;
+  border: 15px solid #81affe;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 25px;
 
-
-
+}

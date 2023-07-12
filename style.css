@@ -13,7 +13,7 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     text-decoration: none;
   }
   
@@ -25,7 +25,8 @@
   
   
   .main {
-    margin-top: 100px; 
+    margin-top: 6.25rem; 
+    text-align: center;
   }
 
 
@@ -40,7 +41,7 @@ body {
 }
 
 p {
-    font-size: 25px;
+    font-size: 1.5625rem;
 }
 
 h1 {
@@ -48,14 +49,15 @@ h1 {
 }
 
 img {
-    float:left
+    float: left;
+    border-radius: 5%;
 }
 
-span {
-    font-size: 5rem;
-    text-align: justify;
+.quote {
+    font-size: 4rem;
+    text-align: center;
     font-family: 'Brush Script MT';
-    text-shadow: 2px 2px 3px #69afff, 2px 2px 5px #00c3ff;
+    text-shadow: 0.125rem 0.125rem 0.1875rem #ff2bae, 0.125rem 0.125rem 0.3125rem #ff7acc;
 }
 
 
@@ -65,7 +67,7 @@ margin: auto;
 align-self: center;
 align-items: center;
 justify-content: center;
-border-radius: 25px;
+border-radius: 1.5625rem;
 background-color: #ff7acc;
 width: 70%;
 }
@@ -77,7 +79,7 @@ width: 70%;
   align-self: center;
   align-items: center;
   justify-content: center;
-  border-radius: 25px;
+  border-radius: 1.5625rem;
   background-color: #ff7acc;
   width: 50%
   
@@ -86,10 +88,10 @@ width: 70%;
 
 article {
   background-color: #81affe;
-  width: 600px;
-  border: 15px solid #81affe;
-  padding: 50px;
-  margin: 20px;
-  border-radius: 25px;
+  width: 37.5rem;
+  border: 0.9375rem solid #81affe;
+  padding: 3.125rem;
+  margin: 1.25rem;
+  border-radius: 1.5625rem;
 
 }

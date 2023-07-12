@@ -52,13 +52,23 @@ img {
 }
 
 span {
-    font-size: 100px;
+    font-size: 5rem;
     text-align: justify;
     font-family: 'Brush Script MT';
     text-shadow: 2px 2px 3px #69afff, 2px 2px 5px #00c3ff;
 }
 
 
+.indexcontainer {
+display: flex;
+margin: auto;
+align-self: center;
+align-items: center;
+justify-content: center;
+border-radius: 25px;
+background-color: #ff7acc;
+width: 70%;
+}
 
 
 .homecontainer {
